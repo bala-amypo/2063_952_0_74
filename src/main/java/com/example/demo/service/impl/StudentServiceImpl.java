@@ -4,6 +4,7 @@ import org.springframework.stereotype.Service;
 import com.example.demo.entity.Student;
 import com.example.demo.repository.StudentRepository;
 import com.example.demo.service.StudentService;
+import java.util.List;
 @Service
 public class StudentServiceImpl implements StudentService{
     @Autowired
@@ -11,5 +12,9 @@ public class StudentServiceImpl implements StudentService{
     @Override
     public Student poststudent(Student st){
         return stdrepo.save(st);
+    }
+    @Override
+    public List<Student> getAllStudents(){
+
     }
 }
