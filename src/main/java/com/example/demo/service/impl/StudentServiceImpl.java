@@ -10,6 +10,6 @@ public class StudentServiceImpl implements StudentService{
     StudentRepository sr;
     @Override
     public Student postStudent(Student s){
-        return null;
+        return sr.save(s);
     }
 }
