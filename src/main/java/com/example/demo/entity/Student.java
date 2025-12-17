@@ -9,31 +9,31 @@ public class Student{
     public Long getId(){
         return id;
     }
-    public Long setId(Long id){
+    public void setId(Long id){
         this.id=id;
     }
     public String getName(){
         return name;
     }
-    public String setName(String name){
+    public void setName(String name){
         this.name=name;
     }
     public String getDept(){
         return dept;
     }
-    public String setDept(String dept){
+    public void setDept(String dept){
         this.dept=dept;
     }
     public LocalDate getDob(){
         return dob;
     }
-    public Long setDob(LocalDate dob){
+    public void setDob(LocalDate dob){
         this.dob=dob;
     }
     public float getCgpa(){
         return cgpa;
     }
-    public float setCgpa(float cgpa){
+    public void setCgpa(float cgpa){
         this.cgpa=cgpa;
     }
 }
