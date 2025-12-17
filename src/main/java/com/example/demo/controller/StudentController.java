@@ -1,4 +1,5 @@
 package com.example.demo.controller;
+package com.example.demo.entity;
 import org.springframework.web.bind.annotation.*;
 import com.example.demo.entitiy.Student;
 import org.springframework.beans.factory.annotation.Autowired;
